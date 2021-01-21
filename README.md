@@ -12,7 +12,7 @@ All methods and classes are contained in a single java file: ConvertImageToTempl
 ## Code Example
 This program works by reading each pixel of an image one at a time and comparing the color values of that pixel with a predetermined color palette, namely, the standard bead colors produced by Perler. It determines the closest match and stores that information in a multidimensional array. A new PNG file is exported with a graphic template of the design and list of what bead colors are needed for the project. When printed properly on standard letter paper, it should be the perfect size for the template.
 
-![Illustration of what program does](illustration)
+![illustration image](illustration.png)
 
 The most difficult part of this process was figuring out how to compare the color value of each pixel to a predetermined palette of colors. The process is somewhat convoluted, and I’m convinced that a more efficient process exists given more time and some creativity. That said, the process does work and can be easily modified to use a larger or smaller color pallete. By default, all 52 standard colors of Perler beads are included in the color palette.
 
